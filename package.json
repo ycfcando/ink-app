@@ -1,0 +1,41 @@
+{
+  "name": "webpack5-react",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "webpack --config ./config/webpack.common.js --env production",
+    "dev": "webpack serve --config ./config/webpack.common.js --env development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5",
+    "webpack-cli": "^5",
+    "babel-loader": "^9",
+    "@babel/core": "^7",
+    "@babel/preset-env": "^7",
+    "@babel/preset-react": "^7",
+    "@babel/preset-typescript": "^7",
+    "css-loader": "^6",
+    "mini-css-extract-plugin": "^2",
+    "html-webpack-plugin": "^5",
+    "eslint": "^8",
+    "eslint-config-standard": "^17",
+    "eslint-plugin-import": "^2",
+    "eslint-import-resolver-typescript": "^3",
+    "eslint-plugin-n": "^16",
+    "eslint-plugin-promise": "^6",
+    "eslint-plugin-react": "^7",
+    "@typescript-eslint/eslint-plugin": "^6",
+    "@typescript-eslint/parser": "^6",
+    "webpack-dev-server": "^4",
+    "webpack-merge": "^5",
+    "@types/react": "^18",
+    "@types/react-dom": "^18"
+  },
+  "dependencies": {
+    "react": "^18",
+    "react-dom": "^18"
+  }
+}
