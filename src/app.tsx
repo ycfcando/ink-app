@@ -1,7 +1,5 @@
 import { createRoot } from 'react-dom/client'
 
-import './index.css'
+import AppLayout from '@/layouts/app_layout'
 
-import BasicLayout from '@/pages/basic_layout'
-
-createRoot(document.getElementById('app')).render(<BasicLayout />)
+createRoot(document.getElementById('app')).render(<AppLayout />)
